@@ -7,11 +7,13 @@ body{
     display: -ms-flexbox;
 }
 
-
 .container{
     justify-content: center;
     margin-top: 32px;
     margin-bottom: 32px;
+}
+.links:hover{
+    cursor: pointer;
 }
 /* aside styling */
 aside{
@@ -177,6 +179,7 @@ aside{
     margin-left: 18px;
     margin-top: 49px;
     padding: 5px 10px;
+    cursor: pointer;
 }
 .current_page{
     color:#db9351;
