@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/styles.css">
+    <title>K&C Messages</title>
+</head>
+<body>
+    <div class="container display_flex">
+        <aside>
+            <div class="profile_image">
+                <img src="/src/photo.png" alt="Profile photo" width="220" height="293">
+                <div class="verified_status">
+                    <img src="/src/verified.png" alt="verified status" width="20" height="14">
+                </div>
+            </div>
+            <div class="display_flex aside_padding messages_color">
+                <div>Сообщения</div>
+                <div>3</div>
+            </div>
+            <div class="aside_padding">
+                <div class="text_inner_padding">Профиль</div>
+                <div class="text_inner_padding">Настройки</div>
+            </div>
+            <div class="aside_padding">
+                <div class="text_inner_padding">Вопросы</div>
+                <div class="text_inner_padding">Сообщение модератору</div>
+            </div>
+            <div class="buy display_flex">
+                Купить подписку
+            </div>
+        </aside>
+    
+        <!-- navbarsection of mail -->
+        <div class="main_container">
+            <div class="navbar display_flex">
+                <div class="display_flex">
+                    <div class="delete">
+                        Удалить
+                    </div>
+                    <div>
+                        Добавить в архив
+                    </div>
+                </div>
+                <div class="display_flex">
+                    <div class="unread">
+                        Непрочитанные
+                    </div>
+                    <div class="archieve">
+                        Архив
+                    </div>
+                </div>
+                <div>
+                    <input class="finder" type="text" placeholder="Искать &#10230; ">
+                </div>
+            </div>
+    
+            <div class="messages">
+                <div class="message">
+                    <div class="display_flex one_message">
+                        <input id="chooser1" class="chooser_box" type="checkbox">
+                        <label class="label_for_custom_checkbox" for="chooser1"></label>
+                        <div class="status_avatar">
+                            <img src="/src/icon_offline.png" alt="Offline avatar"></div>
+                        <div class="user_name">
+                            <a href="#">Александр Анто…</a>
+                        </div>
+                        <div class="buying_icon">
+                            <img src="/src/bag.png" alt="buying_icon" width="17" height="17">
+                        </div>
+                        <div class="message_text">здравствуйте. как долго придется ждать нож кото</div>
+                        <div class="message_date">13/04/2018</div>
+                        <div class="message_time">14:02</div>
+                    </div>
+                </div>
+
+                <div class="message">
+                    <div class="display_flex one_message">
+                        <input id="chooser2" class="chooser_box" type="checkbox">
+                        <label class="label_for_custom_checkbox" for="chooser2"></label>
+                        <div class="status_avatar">
+                            <img src="/src/icon_online.png" alt="fline avatar" ></div>
+                        <div class="user_name">
+                            <a href="#">Gun Machine</a>
+                        </div>
+                        <div class="buying_icon">
+                            <!-- place for bag icon -->
+                        </div>
+                        <div class="message_text">а почему на ноже нет ни одной царапины?</div>
+                        <div class="message_date">01/12/2018</div>
+                        <div class="message_time">00:14</div>
+                    </div>
+                </div>
+
+                <div class="message">
+                    <div class="display_flex one_message">
+                        <input id="chooser3" class="chooser_box" type="checkbox">
+                        <label class="label_for_custom_checkbox" for="chooser3"></label>
+                        <div class="status_avatar">
+                            <img src="/src/icon_offline.png" alt="Offline avatar"></div>
+                        <div class="user_name">
+                            <a href="#">Диана Павлова</a>
+                        </div>
+                        <div class="buying_icon">
+                            <!-- place for bag icon -->
+                        </div>
+                        <div class="message_text">нет, мне не нужно. если и вам тоже пофиг, то выб</div>
+                        <div class="message_date">13/04/2018</div>
+                        <div class="message_time">14:02</div>
+                    </div>
+                </div>
+
+                <div class="message">
+                    <div class="display_flex one_message">
+                        <input id="chooser4" class="chooser_box" type="checkbox">
+                        <label class="label_for_custom_checkbox" for="chooser4"></label>
+                        <div class="status_avatar">
+                            <img src="/src/icon_online.png" alt="Offline avatar"></div>
+                        <div class="user_name">
+                            <a href="#">Otto Zweig</a>
+                        </div>
+                        <div class="buying_icon">
+                            <!-- place for bag icon -->
+                        </div>
+                        <div class="message_text">thank you!  that’s great!</div>
+                        <div class="message_date">01/12/2018</div>
+                        <div class="message_time">00:14</div>
+                    </div>
+                </div>
+                
+                <div class="message">
+                    <div class="display_flex one_message">
+                        <input id="chooser5" class="chooser_box" type="checkbox">
+                        <label class="label_for_custom_checkbox" for="chooser5"></label>
+                        <div class="status_avatar">
+                            <img src="/src/icon_offline.png" alt="Offline avatar"></div>
+                        <div class="user_name">
+                            <a href="#">Александр Анто…</a>
+                        </div>
+                        <div class="buying_icon">
+                            <img src="/src/bag.png" alt="buying_icon" width="17" height="17">
+                        </div>
+                        <div class="message_text">здравствуйте. как долго придется ждать нож кото</div>
+                        <div class="message_date">13/04/2018</div>
+                        <div class="message_time">14:02</div>
+                    </div>
+                </div>
+
+                <div class="message">
+                    <div class="display_flex one_message unread_message ">
+                        <input id="chooser6" class="chooser_box" type="checkbox">
+                        <label class="label_for_custom_checkbox" for="chooser6"></label>
+                        <div class="status_avatar">
+                            <img src="/src/icon_online.png" alt="Offline avatar"></div>
+                        <div class="user_name">
+                            <a href="#">Gun Machine</a>
+                        </div>
+                        <div class="buying_icon">
+                            <!-- place for bag icon -->
+                        </div>
+                        <div class="message_text">а почему на ноже нет ни одной царапины?</div>
+                        <div class="message_date">01/12/2018</div>
+                        <div class="message_time">00:14</div>
+                    </div>
+                </div>
+
+                <div class="message">
+                    <div class="display_flex one_message">
+                        <input id="chooser7" class="chooser_box" type="checkbox">
+                        <label class="label_for_custom_checkbox" for="chooser7"></label>
+                        <div class="status_avatar">
+                            <img src="/src/icon_offline.png" alt="Offline avatar"></div>
+                        <div class="user_name">
+                            <a href="#">Диана Павлова</a>
+                        </div>
+                        <div class="buying_icon">
+                            <!-- place for bag icon -->
+                        </div>
+                        <div class="message_text">нет, мне не нужно. если и вам тоже пофиг, то выб</div>
+                        <div class="message_date">13/04/2018</div>
+                        <div class="message_time">14:02</div>
+                    </div>
+                </div>
+
+                <div class="message">
+                    <div class="display_flex one_message unread_message">
+                        <input id="chooser8" class="chooser_box" type="checkbox">
+                        <label class="label_for_custom_checkbox" for="chooser8"></label>
+                        <div class="status_avatar">
+                            <img src="/src/icon_online.png" alt="Offline avatar"></div>
+                        <div class="user_name">
+                            <a href="#">Otto Zweig</a>
+                        </div>
+                        <div class="buying_icon">
+                            <!-- place for bag icon -->
+                        </div>
+                        <div class="message_text">thank you!  that’s great!</div>
+                        <div class="message_date">01/12/2018</div>
+                        <div class="message_time">00:14</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="pages display_flex">
+                <div class="number">1</div>
+                <div class="number current_page">2</div>
+                <div class="number">3</div>
+                <div class="number">4</div>
+                <div class="number">5</div>
+                <div class="number">6</div>
+                <div class="number">7</div>
+                <div class="number">8</div>
+                <div class="number">9</div>
+                <div class="number">10</div>
+                <div class="number">...</div>
+                <div class="number">123</div>
+                <div class="number">&#10230;</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<!-- Spend time ~4 hour -->
